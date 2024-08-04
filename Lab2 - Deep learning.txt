@@ -1,0 +1,25 @@
+1. What happens when the number of hidden nodes increases?
+• More hidden nodes allow the network to learn more complex patterns in the data. 
+• But as the number of hidden nodes increases, the network might start to overfit the 
+training data, especially if the dataset is small.
+• The accuracy is increasing but some points up and downs are there but overall the 
+accuracy is increasing with the increase of no. of nodes.
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+	• When the network has too few hidden nodes, it might be underfitting the data, 
+	meaning it can't capture the underlying patterns in the training set. Both training and 
+	test accuracy are low.
+
+	• As the number of hidden nodes increases, the model starts to fit the training data 
+
+	better. The training accuracy increases, and if the number of nodes is just right, the 
+
+	test accuracy will also improve.
+
+	• Eventually, adding more nodes doesn't significantly change the performance. The 
+
+	test accuracy plateaus or might even slightly degrade, while the training accuracy 
+
+	remains high
+
